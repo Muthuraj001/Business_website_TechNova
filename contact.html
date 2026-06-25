@@ -1,40 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact</title>
-<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | TechNova</title>
+  <meta name="description" content="Get in touch with TechNova for consulting, project planning, and digital support.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">TechNova</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<header>
-  <nav class="navbar">
-    <div class="logo">TechNova</div>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-</header>
+  <main>
+    <section class="page-hero">
+      <div class="page-hero-content">
+        <p class="eyebrow">Contact us</p>
+        <h1>Let’s discuss your next digital move.</h1>
+        <p>Share your goals and we’ll help you turn them into a thoughtful, high-impact solution.</p>
+      </div>
+    </section>
 
+    <section class="section contact-section">
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h2>Get in touch</h2>
+          <p>Whether you need a new website, a secure cloud setup, or strategic guidance, we’re ready to help.</p>
+          <ul class="contact-list">
+            <li>Email: hello@technova.com</li>
+            <li>Phone: +1 (555) 014-7788</li>
+            <li>Location: 24 Innovation Street, Austin, TX</li>
+          </ul>
+        </div>
 
-<section class="container">
-<h1>Contact Us</h1>
-<form>
-<input type="text" placeholder="Name" required>
-<input type="email" placeholder="Email" required>
-<textarea placeholder="Message"></textarea>
-<button class="btn" type="submit">Send</button>
-</form>
-</section>
+        <form class="content-card">
+          <input type="text" placeholder="Your name" required>
+          <input type="email" placeholder="Your email" required>
+          <input type="text" placeholder="Company" required>
+          <textarea placeholder="Tell us about your project" rows="5"></textarea>
+          <button class="btn btn-primary" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
 
-
-<footer>
-  <p>&copy; 2026 TechNova Solutions. All Rights Reserved.</p>
-</footer>
-
+  <footer>
+    <p>&copy; 2026 TechNova Solutions. All Rights Reserved.</p>
+  </footer>
 </body>
 </html>
